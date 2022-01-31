@@ -14,3 +14,13 @@ describe('Palindrome', function () {
     expect(isPalindrome("abba")).to.be.true;
   });
 });
+
+
+describe("parse numbers", function(){
+
+  it("returns array when passed comma separated list of numbers", function(){
+     let items = parse("5,8,0,17,6,4,9,3", ",");
+     expect(Array.isArray(items)).toBeTrue();
+  });
+
+});

@@ -5,3 +5,6 @@ export function sumCalculator(a,b){
 export function isPalindrome(a){
     return a===a.split('').reverse().join('')
 }
+
+
+
